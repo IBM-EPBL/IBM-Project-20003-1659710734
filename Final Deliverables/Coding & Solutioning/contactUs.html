@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+      .container {
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(8, 94, 215);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      a {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+      a:hover {
+        color: dodgerblue;
+        text-decoration: none;
+      }
+      .nav_items {
+        color: whitesmoke;
+        padding: 0px;
+        font-size: larger;
+        margin: 0px 40px 0px 40px;
+      }
+      input,
+      textarea {
+        padding: 10px 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid navy;
+        border-radius: 5px;
+        width: 500px;
+        outline: 0px;
+      }
+      input:focus,
+      textarea:focus {
+        border: 2px solid navy;
+      }
+      ul {
+        padding-left: 0px;
+      }
+      .contactGrid {
+        display: grid;
+        grid-template-rows: repeat(2, 170px);
+        grid-template-columns: repeat(2, 300px);
+      }
+      .contactBox {
+        background-color: dodgerblue;
+        color: white;
+        border: 2px solid white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h4 {
+        margin: 0px;
+      }
+      .contactInfo,
+      .lastPart {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+      .icons {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+      .contactBox:hover {
+        background-color: royalblue;
+      }
+
+      button {
+        background-color: tomato;
+        font-size: larger;
+        border-radius: 5px;
+        width: 150px;
+        height: auto;
+        padding: 10px;
+        color: white;
+        margin: 0px 10px 10px 0px;
+        border: 0;
+      }
+      button:hover {
+        background-color: dodgerblue;
+      }
+      .management {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .memImg {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        object-fit: cover;
+        border-radius: 150px;
+      }
+      .NameTag {
+        text-align: center;
+        color: #1b0760;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <article class="container">
+        <ul>
+          <a class="nav_items" href="index.html">Home</a>
+        </ul>
+        <ul>
+          <a class="nav_items" href="dashboard.html">Dashboard</a>
+        </ul>
+        <ul>
+          <a class="nav_items" href="report.html">Report</a>
+        </ul>
+        <ul>
+          <a class="nav_items" href="story.html">Story</a>
+        </ul>
+        <ul>
+          <a class="nav_items" href="contactUs.html">Contact Us</a>
+        </ul>
+        <ul>
+          <a class="nav_items" href="login Page.html">Log out</a>
+        </ul>
+      </article>
+    </nav>
+    <article>
+      <div>
+        <h2 style="text-align: center">Subscribe to receive updates!</h2>
+        <div style="text-align: center">
+          <form>
+            <input
+              id="inputEmail"
+              type="email"
+              placeholder="Enter email address..."
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </article>
+
+    <h1 style="text-align: center; color: #1b0760">OUR MANAGEMENT</h1>
+    <div class="management">
+      <div>
+        <article class="NameTag">
+          Mr Sannapaneni Kundan Sai Chowdary - Team Leader
+        </article>
+      </div>
+      <div>
+        <article class="NameTag">Miss Swapna T - Scrum Team</article>
+      </div>
+      <div>
+        <article class="NameTag">Miss Bhumireddy Nandini - Scrum Team</article>
+      </div>
+      <div>
+        <article class="NameTag">Mr Pavan Kumar Malasani - Scrum Team</article>
+      </div>
+    </div>
+    <h2 style="text-align: center">CONTACT US</h2>
+
+    <section class="contactInfo">
+      <section class="box-1">
+        <article class="contactGrid">
+          <div class="contactBox">
+            <img src="ICONS/address.png" alt="Address" />
+            <h4>Address</h4>
+            <p>SSN College of Engineering, Kalavakkam, Tamil Nadu – 603 110</p>
+          </div>
+          <div class="contactBox">
+            <img
+              style="margin-bottom: 10px"
+              src="ICONS/call us.png"
+              alt="Call us"
+            />
+            <h4>Call Us</h4>
+            <p>+91 44 2746 9700</p>
+          </div>
+          <div class="contactBox">
+            <img src="ICONS/email.png" alt="Email" />
+            <h4>Email Us</h4>
+            <p>info@ssn.edu.in</p>
+          </div>
+          <div class="contactBox">
+            <img src="ICONS/working hours.png" alt="Working Hours" />
+            <h4>Working Hours</h4>
+            <p>Mon - Fri: 9AM to 9PM</p>
+          </div>
+        </article>
+      </section>
+      <section class="box-2">
+        <form action="" method="POST">
+          <div class="form-group">
+            <input
+              class="FormInput"
+              placeholder="Your Name"
+              type="text"
+              name="name"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              class="FormInput"
+              placeholder="Your Email"
+              type="email"
+              name="email"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              class="FormInput"
+              placeholder="Subject"
+              type="text"
+              name="subject"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="FormInput"
+              placeholder="Message"
+              class="form-control"
+              name="message"
+              rows="5"
+            ></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="center">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </section>
+    <article class="lastPart">
+      <div class="copyright">
+        &copy; Copyright
+        <strong><span>Global Sales Data Analytics</span></strong
+        >. All Rights Reserved
+      </div>
+      <div class="socialIcons">
+        <a href="" target="_blank"
+          ><img class="icons" src="ICONS/facebook.png" alt=""
+        /></a>
+        <a href="" target="_blank"
+          ><img class="icons" src="ICONS/twitter.png" alt=""
+        /></a>
+        <a href="" target="_blank"
+          ><img class="icons" src="ICONS/instagram.png" alt=""
+        /></a>
+        <a href="" target="_blank"
+          ><img class="icons" src="ICONS/linkedin.png" alt=""
+        /></a>
+        <a href="" target="_blank"
+          ><img class="icons" src="ICONS/youtube.png" alt=""
+        /></a>
+      </div>
+    </article>
+  </body>
+</html>
