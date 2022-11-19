@@ -11,7 +11,6 @@ Link to Demo video:    https://youtu.be/wi_rz30btfM
 Link to website:       https://global-sales-analytics.s3.ams03.cloud-object-storage.appdomain.cloud/IBM%20WEBSITE/login%20Page.html
 
 
-In this project as we team of 4 worked on the Global Sales to get know about insights of the using IBM Cognos. We also used Python(Jupyter Notebook)
-for some visualizations. Finally we linked all your IBM visualizations to a website which was lauched through IBM cloud.
+In this project as we team of 4 worked on the Global Sales to get know about insights of the given Data using IBM Cognos and also we used Python(Jupyter Notebook) for some visualizations like piechart, pairplots, Barplots, and Scatterplots. Finally we linked all your IBM visualizations to a website which was lauched through IBM cloud.
 
 Finally thanks to IBM team for providing all the facilities for working.
